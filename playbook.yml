@@ -1,6 +1,7 @@
 --- 
 - 
   become: true
+  become_method: sudo
   hosts: all
   tasks: 
     - 
